@@ -233,7 +233,6 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     libnotifyaudiohal \
-    libqcbor \
     libqtikeymaster4 \
     libsensorcal \
     libsns_device_mode_stub \
