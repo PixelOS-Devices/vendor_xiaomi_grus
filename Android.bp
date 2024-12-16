@@ -3578,39 +3578,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libssccalapi",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libssccalapi.so",
-            ],
-            shared_libs: [
-                "libdiag",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libqmi_common_so",
-                "libqmi_cci",
-                "libqmi_encdec",
-                "libqmi_csi",
-                "libnanopb",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libultrasound",
     owner: "xiaomi",
     strip: {
@@ -3886,24 +3853,6 @@ prebuilt_rfsa {
     filename: "libproxy_skel.so",
     owner: "xiaomi",
     src: "proprietary/vendor/lib/rfsa/adsp/libproxy_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libscveObjectSegmentation_skel",
-    filename: "libscveObjectSegmentation_skel.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libscveT2T_skel",
-    filename: "libscveT2T_skel.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
     relative_install_path: "adsp",
     soc_specific: true,
 }

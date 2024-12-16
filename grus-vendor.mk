@@ -235,7 +235,6 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_stub \
     libsnsdiaglog \
     libssc_default_listener \
-    libssccalapi \
     libultrasound \
     sensors.elliptic \
     sensors.ssc \
@@ -255,8 +254,6 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_skel \
     libhexagon_nn_skel \
     libproxy_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
     misound_karaoke_res \
