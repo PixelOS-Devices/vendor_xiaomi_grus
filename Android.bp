@@ -1799,7 +1799,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.sdm710",
+    name: "audio.primary.sdm710_vendor",
+    stem: "audio.primary.sdm710",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2062,7 +2063,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liba2dpoffload",
+    name: "liba2dpoffload_vendor",
+    stem: "liba2dpoffload",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3052,7 +3054,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libssrec",
+    name: "libssrec_vendor",
+    stem: "libssrec",
     owner: "xiaomi",
     strip: {
         none: true,

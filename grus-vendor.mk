@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.node.mibokeh \
     com.xiaomi.node.mifragment \
     com.xiaomi.node.misegment \
-    audio.primary.sdm710 \
+    audio.primary.sdm710_vendor \
     camera.qcom \
     com.qti.chi.override \
     libFaceGrade \
@@ -179,7 +179,7 @@ PRODUCT_PACKAGES += \
     libVDSuperPhotoAPI \
     libXMFD_AgeGender \
     lib_denoiser3 \
-    liba2dpoffload \
+    liba2dpoffload_vendor \
     libadm \
     libalCFR \
     libalLDC \
@@ -217,7 +217,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_faceproc2 \
     libmpbase \
     libnanopb \
-    libssrec \
+    libssrec_vendor \
     libswregistrationalgo \
     libsymphony-cpu \
     libsymphonypower \
