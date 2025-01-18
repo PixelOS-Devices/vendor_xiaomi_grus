@@ -174,6 +174,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     libFaceGrade \
+    libMegviiFacepp-0.5.2 \
     libSNPE \
     libVDClearShot \
     libVDSuperPhotoAPI \
@@ -210,6 +211,7 @@ PRODUCT_PACKAGES += \
     libcamxstatscore \
     libcamxtintlessalgo \
     libcom.qti.chinodeutils \
+    libmegface \
     libmialgo_fs \
     libmialgo_sd \
     libmibokeh_712 \
